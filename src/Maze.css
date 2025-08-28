@@ -1,0 +1,91 @@
+/* src/Maze.css */
+.maze-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 16px;
+}
+
+.controls-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(17,24,39,0.06);
+  padding: 12px;
+  width: 100%;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-group { display:flex; gap:8px; flex-wrap:wrap; }
+.btn {
+  background: #f3f4f6;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #111827;
+  font-weight: 600;
+  transition: transform .08s ease, background-color .12s ease;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn[disabled] { opacity: .6; cursor: not-allowed; transform: none; }
+
+.btn.primary {
+  background: linear-gradient(90deg,#4f46e5,#06b6d4);
+  color: white;
+}
+.btn.small { padding: 6px 8px; font-size: 13px; }
+
+.info-row {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  margin-top: 8px;
+  color: #374151;
+  font-size: 14px;
+}
+
+.maze-grid {
+  display: grid;
+  gap: 3px;
+  margin-top: 14px;
+  padding: 12px;
+  background: linear-gradient(180deg, #ffffff, #fbfdff);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.04);
+  overflow: auto;
+}
+
+/* cells */
+.cell {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: #f9fafb;
+  border: 1px solid rgba(15,23,42,0.05);
+  box-sizing: border-box;
+  transition: background-color 120ms linear, transform 80ms ease;
+  cursor: pointer;
+}
+.cell:hover { transform: translateY(-2px); }
+
+/* colors */
+.cell-wall { background: #111827; }       /* black */
+.cell-start { background: #10b981; }      /* green */
+.cell-end { background: #ef4444; }        /* red */
+.cell-visited { background: #60a5fa; }    /* light blue */
+.cell-path { background: #f59e0b; }       /* amber path */
+
+/* responsive */
+@media (max-width: 640px) {
+  .cell { width: 20px; height: 20px; border-radius: 4px; }
+}
