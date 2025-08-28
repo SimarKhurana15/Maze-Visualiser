@@ -1,3 +1,12 @@
+# 🧩 Maze Visualiser
+
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![Express](https://img.shields.io/badge/API-Express-black)
+![C++](https://img.shields.io/badge/Algorithm-C++-orange?logo=cplusplus)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
