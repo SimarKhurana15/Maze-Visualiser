@@ -1,10 +1,27 @@
-# 🧩 Maze Visualiser
-
 ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
 ![Express](https://img.shields.io/badge/API-Express-black)
 ![C++](https://img.shields.io/badge/Algorithm-C++-orange?logo=cplusplus)
 
+# 🧩 Maze Visualizer
+
+Maze Visualizer is an interactive web-based application that brings maze solving algorithms to life. 
+Unlike the traditional console-based solver, this version includes a frontend and backend with a 
+clean UI, real-time visualization, and step-by-step animations of pathfinding.
+
+## 🚀 Features
+- Interactive grid where users can draw walls and set start/end points
+- Real-time visualization of algorithms like BFS, DFS, Dijkstra, and A*
+- Backend logic for processing paths and validating solutions
+- Smooth frontend animations for better understanding of the solving process
+- Clear comparison with console-based version
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js / HTML / CSS / JavaScript
+- **Backend:** Node.js / Express
+- **Language Support:** C++ (original console solver), JavaScript
+
+## 📂 Project Structure
 
 
 # Getting Started with Create React App
